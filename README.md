@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ⚛️ React.js Learning Journey: From Scratch
 
 Welcome to the React.js Learning Journey! This repository is a personal guide and a collection of resources for anyone looking to learn React from the ground up. Whether you're a complete beginner or just need a refresher, this guide will walk you through the core concepts, best practices, and practical projects to help you master React.
@@ -77,3 +78,21 @@ Can apply our knowledge by building these simple projects. Start with a basic on
 * **[Roadmap.sh React Roadmap](https://roadmap.sh/react):** A visual guide to the entire React ecosystem.
 
 Happy coding! ✨
+=======
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## React Compiler
+
+The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+>>>>>>> 5eb4f0d (Initial commit : React.js Handbook setup)
