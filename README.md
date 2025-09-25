@@ -1,6 +1,6 @@
 # ⚛️ React.js Learning Journey: From Scratch
 
-Welcome to the React.js Learning Journey! This repository is a personal guide and a collection of resources for anyone looking to learn React from the ground up. Whether you're a complete beginner or just need a refresher, this guide will walk you through the core concepts, best practices, and practical projects to help you master React.
+Welcome to the React.js Learning Journey Repo! This repository is a personal guide and a collection of resources for anyone looking to learn React from the ground up. Whether you're a complete beginner or just need a refresher, this guide will walk you through the core concepts, best practices, and practical projects to help you master React.
 
 ## 🚀 Why Learn React?
 
