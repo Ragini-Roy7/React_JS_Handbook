@@ -1,0 +1,51 @@
+h1{
+  color:green;
+  text-align:center;
+}
+h3{
+  color:cornflowerblue;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ text-align:center;
+ font-weight: 700;
+}
+.card-info{
+  background-color:brown;
+  color:white;
+  flex-direction: column;
+  font-family:'Courier New', Courier, monospace;
+  /* justify-content:center;
+  align-items:center; */
+}
+.img{
+  margin:10px;
+  padding:20px;
+  border-radius:20px;
+}
+.form{
+ margin-top:20px;
+padding:20px;
+  display:flex;
+  flex-direction:row;
+  margin:2 rem auto;
+  gap:10px;
+  border-radius:10px;
+  background-color:#c788d9;
+}
+.form label {
+  margin-top:1rem;
+  font-weight:bold;
+  color:#9f12e6;
+}
+.form input{
+  padding:0.5rem;
+  margin-top:0.5rem;
+  border-radius:2px;
+  font-size:0.8rem;
+  border-color: #c788d9;
+  border-style: solid;
+}
+.form input:focus{
+  border-color:#7a94b0;
+  outline:none;
+  box-shadow: 0 0 5px rgba(0,123,255,0.6)
+}
