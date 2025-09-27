@@ -63,7 +63,7 @@ Can apply our knowledge by building these simple projects. Start with a basic on
 
 * **To-Do List App:** A classic beginner project. Focus on state management, adding, deleting, and editing items.
 * **Simple Weather App:** Fetch data from a weather API and display it. This is a great way to practice data fetching and displaying conditional content.
-* **Employee Dashboard:** This is the project assigned to you! It's a great way to combine all the core concepts. Here is a high-level plan:
+* **Employee Dashboard:** It's a great way to combine all the core concepts. Here is a high-level plan:
     * Set up a React project.
     * Create a component to fetch and display employee data from the given API.
     * Implement search functionality to filter employees by ID.
