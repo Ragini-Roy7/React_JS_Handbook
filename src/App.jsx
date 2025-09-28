@@ -1,35 +1,46 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Routes, Route } from "react-router-dom";
+import Greet from "./components/Greet";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import MainContent from "./components/MainContent";
+import Form from "./components/Form";
+import Expressions from "./components/Expressions";
+// import Greet_User from "./dynamic_rendering/Greet_User";
+import Users_API from "./dynamic_rendering/Users_API";
+import Add_tasks from "./to_do_list/Add_tasks";
+import Data_List from "./dynamic_rendering/Data_List";
+import Profile from "./components/Profile";
+import UserList from "./components/UserList";
+import ProductList from "./components/ProductList";
+
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Greet />} />
+        <Route path="/main" element={<MainContent />} />
+        <Route path="/form" element={<Form />} />
+        <Route path="/expressions" element={<Expressions />} />
+        {/* added here users name from fake rest api */}
+        <Route path="/users" element={<Users_API/>} />
+        <Route path="/todo" element= {<Add_tasks/>} />
+        <Route path="/userslist" element= {<Data_List/>} />
+        <Route path="/myprofile" element= {<Profile/>} />
+        <Route path= "/prodlist" element= {<ProductList/>} />
+      </Routes>
+      
+      <Footer/>
+      <UserList/>
+      
+      {/* <Data_List/> */}
+      {/* <Greet_User name="Ragini"/> */}
+      
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+
