@@ -15,6 +15,9 @@ const Header = () => {
         <Link to="/userslist">Userslist</Link> | {""}
         <Link to="/myprofile">My Profile</Link> | {""}
         <Link to= "/prodlist"> Product List</Link> | {""}
+        <Link to = "/card">Card</Link> | {""}
+        <Link to="/notification">Check Notification</Link> | {""}
+      
       </nav>
     </div>
   );
